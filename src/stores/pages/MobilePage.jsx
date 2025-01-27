@@ -34,7 +34,7 @@ return (
                 checked = {selectedProduct.includes(phone.company)}
                 onChange={()=>companyHandler(phone.company)}
                 />
-                iphone
+                {phone.company}
             </label>
         </div>
     )
